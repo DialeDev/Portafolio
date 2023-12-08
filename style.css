@@ -1,0 +1,225 @@
+body {
+    background-color: #00004b;
+    font-family: Tahoma;
+    color: #fff;
+    display: grid;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Encabezado {
+    padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contactos a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contactos a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.infoPersonal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.infoPersonal img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.Encabezado h1 {
+    color: #2f2ffa;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8125rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.contactos {
+    display: flex;
+    gap: 1rem;
+}
+
+.email, .num {
+    background-color: #2f2ffa;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-width: 11.7625rem;
+}
+
+
+
+.Formacion {
+    background-color: #00005a;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 2rem;
+    padding: 6rem;
+}
+
+.Formacion-items {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem; 
+}
+
+.Formacion-item {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+    background-color: #0c0c82;
+    padding: 2rem;
+    border-radius: 0.25rem;
+    width: 20%;
+    gap: 2rem;
+    min-width: 12.125rem;
+    max-width: 14.9125rem;
+}
+
+.proyectos {
+    padding: 6rem;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 2rem;
+}
+
+.proyectos-items {
+    display: grid;
+    gap: 4rem;
+}
+
+.proyectos-item {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;    
+}
+
+.descripcion-proyecto {
+    max-width: 14.125rem;
+    min-width: 12.125rem;
+    background-color: #0C0C82;
+    padding: 2rem;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.proyectos-item img{
+    min-width: 28.4625rem;
+    max-width: max(37.9rem,100%);
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+
+.habilidades {
+    background-color: #00005A;
+    padding: 6rem;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 2rem;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.habilidades-item {
+    background-color: #0C0C82;
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 2rem;
+}
+
+.figure {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.img-desc {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.contenido p {
+   padding-top: 1rem;
+   font-size: 1.4rem;
+}
+
+.habilidades img {
+    width: 10rem;
+}
+
+.habilidad-element {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    padding: 2rem 6rem;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+}
+
+footer img {
+    width: 2rem;
+}
+
+.foto img{
+height: 18em;
+border-radius: 2rem;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+}
+
+.foto img:hover {
+    box-shadow: 0 0 20px rgba(46, 46, 250,0.9);
+}
+
+.email:hover, .num:hover {
+    box-shadow: 0 0 25px #0C0C82;
+}
